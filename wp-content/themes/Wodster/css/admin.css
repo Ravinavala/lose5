@@ -1,0 +1,45 @@
+#toplevel_page_cafe-options .dashicons-admin-generic:before {
+        content: 'A'!important;
+    position: absolute;
+    font-size: 12px;
+    line-height: 17px;
+    z-index: 100000;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    left: 8px;
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 1px!important;
+    font-family: arial;
+    line-height: 19px;
+    top: 5px;
+}
+.demo_content_options p {
+    font-size: 16px;
+}
+.demo_content_options span {
+    font-style: italic;
+    font-size: 14px;
+}
+.demo_content_options ul li {
+    padding-left: 20px;
+	font-size: 15px;
+    padding-bottom: 5px;
+}
+.demo_content_options ol li {
+	font-size: 15px;
+    padding-bottom: 5px;
+
+}
+.demo_content_options ul li:before {
+    content: ''!important;
+    background-image: url(/wp-content/themes/Cafe/images/tick.png)!important;
+    position: absolute;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

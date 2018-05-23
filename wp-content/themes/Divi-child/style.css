@@ -1,0 +1,1172 @@
+/*
+Theme Name: Divi Child 
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Tags: responsive-layout,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,custom-background,custom-colors,featured-images,full-width-template,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready
+Version: 3.0.24.1499976994
+Updated: 2017-07-13 20:16:34
+
+*/
+@font-face {
+    font-family: 'cooper_hewittbold';
+    src: url('fonts/cooperhewitt-bold-webfont.eot');
+    src: url('fonts/cooperhewitt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cooperhewitt-bold-webfont.woff') format('woff'),
+         url('fonts/cooperhewitt-bold-webfont.ttf') format('truetype'),
+         url('fonts/cooperhewitt-bold-webfont.svg#cooper_hewittbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cooper_hewittlight';
+    src: url('fonts/cooperhewitt-light-webfont.eot');
+    src: url('fonts/cooperhewitt-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cooperhewitt-light-webfont.woff') format('woff'),
+         url('fonts/cooperhewitt-light-webfont.ttf') format('truetype'),
+         url('fonts/cooperhewitt-light-webfont.svg#cooper_hewittlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cooper_hewittmedium';
+    src: url('fonts/cooperhewitt-medium-webfont.eot');
+    src: url('fonts/cooperhewitt-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cooperhewitt-medium-webfont.woff') format('woff'),
+         url('fonts/cooperhewitt-medium-webfont.ttf') format('truetype'),
+         url('fonts/cooperhewitt-medium-webfont.svg#cooper_hewittmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light-webfont.eot');
+    src: url('fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff'),
+         url('fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+label.error, label.text-danger {
+    color: #d61d1d;
+}
+img#img_preview {
+    height: 120px;
+    width: 130px;
+}
+span.error {
+    padding: 10px 10px;
+    color: #c32700;
+    font-family: 'MontserratRegular';
+}
+/**********start css header after login ***********/
+.pro_main_header .logo_container {
+    display: inline-block;
+    float: left;
+}
+.pro_main_header div#et-top-navigation {
+    float: right;
+    width: auto!important;
+    display: inline-block;
+    padding: 38.5px 12px;
+}
+.pro_main_header #top-menu li a {
+    padding: 0;
+    font-size: 16px;
+}
+.pro_main_header .et-search-form input, .pro_main_header span.et_close_search_field{
+    top: 10%;
+}
+.pro_main_header .et_search_form_container{
+    float: right;
+    right: 6%;
+}
+/**********end css header after login ***********/
+/************ start css pro_member menu header***************/
+.pro_user_logins {
+    text-align: center;
+}
+#menu-promember_menu {
+    background: #e0e0e0;
+    /*text-align: center;*/
+    display: inline-block;
+    width: 90%;
+}
+#menu-promember_menu li {
+    display: inline-block;
+    padding: 8px 20px;
+    font-size: 16px;
+    font-family: 'cooper_hewittmedium';
+}
+#menu-promember_menu li a{ 
+    display: block;
+    position: relative;
+    color: rgba(0,0,0,.6);
+    text-decoration: none;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    font-size:14px;
+}
+#menu-promember_menu li a:hover, #menu-promember_menu .current-menu-item a {
+    color: #af4479;
+}
+/************ end css pro_member menu header***************/
+/************start css login page **********/
+.form_border {
+     position: relative;
+     padding: 86px 0px;
+     max-width: 1200px;
+     margin: auto;
+}
+.form_heading {
+    position: absolute;
+	width: 26%;
+	padding: 50px 30px;
+	background-color: #3085bb;
+    border-radius:5px;
+    z-index: 1;
+    left: 2%;
+    top: 24%;
+}
+.form_heading_img img{
+	margin: 0 auto;
+	display: table;
+}
+.form_heading_text {
+    padding: 15px 0px;
+}
+.form_heading_text h2 {
+    /*font-size: 26px;*/
+    font-family: 'cooper_hewittbold';
+	color: #ffffff;
+    text-align: center;
+}
+.form_heading_text p {
+    font-size: 14px;
+    font-family: 'cooper_hewittlight';
+	color: #ffffff;
+    line-height: 18px;
+}
+.signin_form {
+	border: 1px solid #e9e9e9;
+    width: 70%;
+    margin: 0 auto;
+    padding: 65px 108px 65px 175px;
+    z-index: 0;
+}
+.form_contain label {
+	display: block;
+	font-family: 'cooper_hewittmedium';
+    font-size: 18px;
+    color: #000000;
+    padding: 10px 0px;
+}
+.form_contain label.error, label.text-danger {
+    color: #d61d1d;
+    padding: 5px 0px;
+    font-size: 16px;
+    font-family: 'cooper_hewittlight';
+}
+.form_contain input {
+    font-size: 16px;
+    font-family: 'cooper_hewittlight';
+    color: #000000;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    height: 50px;
+    width: 100%;
+    padding: 0px 10px;
+}
+.form_contain input::placeholder {
+    color: #999999;
+    font-family: 'cooper_hewittlight';
+}
+.signin_form .forgot_password {
+	text-align: right;
+}
+.signin_form .forgot_password {
+    font-size: 14px;
+    font-family: 'robotolight';
+    color: #3086bb;
+}
+.signin_submit {
+	text-align: right;
+	padding: 40px 0px 20px;
+}
+.signin_submit input.blue_btn{
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    background-color: #3085bb;
+    border-radius: 4px;
+    padding: 0px;
+    height:50px;
+    width: 110px;
+    border: none;
+}
+.form_contain p{
+	text-align: right;
+    font-size: 14px;
+    font-family: 'cooper_hewittlight';
+    color: #000000;
+}
+/************end css login page **********/
+/************ start css sign_up page **********/
+.sign_up_sec{
+    padding: 50px 0px;
+    position: relative;
+    max-width: 1200px;
+    margin:0 auto;
+}
+.sign_up_sec .form_heading{
+    width: 24%;
+    top:20%;
+    padding: 50px 23px;
+}
+.sign_up_sec .signup_heading_radio{
+    width: 100%;
+    display: block;
+    color: #fff;
+    padding-bottom: 10px ;
+}
+.sign_up_sec .form_heading_text p{
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+	color: #ffffff;
+}
+#pmpro_user_fields{
+    width: 75%;
+    margin: 0 auto;
+    padding: 65px 65px 80px 200px;
+    border: 1px solid #e9e9e9;
+}
+#pmpro_user_fields .signup_row div{
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+     clear: none;
+}
+.signup_row {
+    margin: 0 !important;
+}
+.signup_row div:last-of-type,div#displaygroupname{
+    margin-right: 0px !important;
+}
+div#grpname_ms {
+    margin: 0 !important;
+}
+div#grpnameerr_msg {
+    margin: 0 !important;
+}
+#pmpro_user_fields #signup_form_email,#pmpro_user_fields div#prefered_intake{
+    width: 100%;
+    display: inline-block;
+}
+#signup_form_email input#bemail,div#prefered_intake select#preferedintake{   
+    min-width: 100%;
+}
+#pmpro_user_fields div label{
+    float: none;
+    width: 100%;
+    display: table-cell;
+    font-family: 'cooper_hewittmedium';
+    color:#000;
+    font-size: 18px;
+    padding-bottom: 6px;
+}
+span.pmpro_asterisk{
+    display: none;
+}
+#pmpro_user_fields .input{
+    min-width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'cooper_hewittmedium';
+     color: #000;
+     padding:0px 10px;
+     border: 1px solid #e9e9e9;
+}
+#pmpro_user_fields input::placeholder{
+    font-size: 16px;
+    color: #999999; 
+    font-family: 'cooper_hewittlight';
+}
+#preferedintake{
+    -webkit-appearance: none;
+    -webkit-padding-start: initial;
+    -webkit-padding-end: initial;
+    height: 50px;
+    background-image: url('../Divi/images/dropdown_arrow.png');
+    background-repeat: no-repeat;
+    background-position: 97% 50%;
+    font-size: 16px;
+    color: #999999; 
+    font-family: 'cooper_hewittlight';
+    padding-left: 5px;
+    border: 1px solid #e9e9e9;
+}
+#pmpro_user_fields p{
+    padding-bottom: 0px;
+    font-size: 14px; 
+    font-family: 'cooper_hewittlight';
+    color: #000;
+}
+.signup_submit .blue_btn{
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+	color: #ffffff;
+    background-color: #3085bb;
+    border-radius: 4px;
+    padding: 0px;
+    height:50px;
+    width: 20%;
+    border: none;
+}
+.pmpro_submit .pmpro_btn-submit-checkout ,#reset_pass{
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+	color: #ffffff;
+    background-color: #3085bb;
+    border-radius: 4px;
+    padding: 10px 12px;
+    width: 180px;
+    border: none;
+}
+#pmpro_user_fields #pmpro_paypalexpress_checkout{
+    float:  right;
+}
+/************ end css signup page *************/
+/********start css signup page level 2 ******/
+#pmpro_level-2 .pmpro_submit {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+#pmpro_level-2 span#pmpro_paypalexpress_checkout {
+    FLOAT: NONE;
+    text-align: center;
+}
+form.pmpro_form .pmpro_submit{
+    margin: auto;
+}
+.signup_level2 p#pmpro_account_loggedin {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #000000;
+    text-align: center;
+    margin: 20px 0px;
+}
+.signup_level2 p#pmpro_account_loggedin strong {
+    text-transform: capitalize;
+    font-family: 'cooper_hewittbold';
+}
+.signup_level2 p#pmpro_account_loggedin a {
+    font-family: 'cooper_hewittbold';
+    color: #3085bb;
+    text-transform: capitalize;
+}
+/**************start css forgot_password page *******/
+.forgotpass_section .form_heading {
+    padding: 20px 15px;
+    width: 20%;
+    left: 10%;
+    top: 24.5%;
+}
+.forgotpass_section .form_heading_img img {
+    width: 55%;
+}
+.forgotpass_section .form_heading_text {
+    padding: 15px 0px 0;
+}
+.forgotpass_section .form_heading_text h2,.reset_pw_section .form_heading_text h2  {
+    font-size: 24px;
+}
+.forgotpass_form {
+    border: 1px solid #e9e9e9;
+    width: 60%;
+    margin: 0 auto;
+    padding: 65px 100px 65px 145px;
+    z-index: 0;
+}
+.forgotpass_submit {
+    text-align: right;
+    padding: 25px 0px 15px;
+}
+.forgotpass_submit input.blue_btn{
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    background-color: #3085bb;
+    border-radius: 4px;
+    padding: 0px;
+    height:50px;
+    width: 110px;
+    border: none;
+}
+/**************end css forgot_password page *******/
+/**************start css reset_password page *******/
+.reset_pw_section .form_heading_img img{
+    width: 55%;
+}
+.reset_pw_section .form_border{
+    padding: 100px 0px;
+}
+.reset_pw_section .form_heading {
+    padding: 40px 15px;
+    width: 20%;
+    left: 5%;
+    top: 24%;
+}
+/**************end css reset_password page *******/
+/**************start css user_listing page *******/
+.pmpro_member_directory hr{
+    display: none;
+}
+.user-listing_sec{
+    width: 85%;
+    margin: 0px auto;
+    padding-top: 70px;
+}
+.user_list_detail {
+    width: 46%;
+    display: inline-block;
+    padding:0px;
+    margin: 15px;
+}
+.user_list_detail .row{
+    margin: 0;
+}
+p.pmpro_member_directory_link {
+    margin-top: 0px !important;
+}
+h3.pmpro_member_directory_display-name {
+    background-color: #3085bb;
+    color:#fff;
+    font-family: 'cooper_hewittbold';
+    text-transform: capitalize;
+    line-height: 22px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.user_list_detail p {
+    padding: 0 10px;
+}
+.user_list_detail p.pmpro_member_directory_link .more-link{
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    background-color: #3085bb;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    float: right;
+    margin:10px;
+}
+a.more-link.group_mem {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    background-color: #3085bb;
+    border-radius: 4px;
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+p.pmpro_member_directory_link .more-link{
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+.user_list_detail .medium-.columns{
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #c3c3c3;
+    padding: 0;
+    min-height: 245px;
+    position: relative;
+}
+.user_list_detail p strong{
+    color: #000;
+    font-family: 'cooper_hewittmedium';
+    font-size: 16px;
+}
+.user_list_detail p {
+    color: #000;
+     font-family: 'cooper_hewittlight';
+     font-size: 16px;
+}
+.user_list_detail  span.u_grp_code{
+    color: #000;
+     font-family: 'cooper_hewittlight';
+     font-size: 16px;
+     padding: 0 10px;
+}
+/**************end css user_listing page *******/
+/************ start css weekly_challenges page***************/
+.weekly_class{
+    padding: 30px 0px;
+}
+.video_sec{
+    width: 50%;
+    float: left;
+}
+.video_seq {
+    margin: 30px auto;
+    width: 80%;
+    text-align: center;
+    padding:30px ;
+    box-shadow: 0px 0px 40px 0px rgba(0,0,0,0.75);
+}
+.video_seq h4 {
+    padding: 15px 0px 10px;
+    font-family: 'cooper_hewittmedium';
+}
+.video_seq p{
+     font-family: 'cooper_hewittmedium';
+     text-transform: capitalize;
+}
+.video_seq iframe {
+    width: 100%;
+}
+/************ end css weekly_challenges page***************/
+/************ start css manage profile***************/
+.profile h2{
+    padding: 15px 20px;
+    display: inline-block;
+    font-family: 'cooper_hewittbold';
+}
+.profile .edit_profile {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+.profile .edit_profile button{
+    background-color: #3085bb;
+    border-radius: 4px;
+    padding: 10px 12px;
+    border: none;
+}
+.profile .edit_profile a {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+}
+.pmpro_member_profile {
+    width: 100%;
+    margin:10px auto;
+    border: 2px solid #c3c3c3;
+    padding: 50px;
+   display: inline-block;
+}
+.profile_image {
+    width: 32%;
+    float: left;
+    display: inline-block;
+    margin: 18px auto;
+    padding: 5px;
+    border: 3px solid #dcdcdc;
+    height: 160px;
+    border-radius: 20px;
+}
+.profile_image img#img_preview {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+.profile_info {
+    width: 60%;
+    display: inline-block;
+    margin-left: 40px;
+}
+h2.pmpro_member_directory_name {
+    padding: 0px;
+    font-family: 'cooper_hewittbold';
+    color: #3085bb;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+.profile_info p {
+    font-size: 18px;
+    font-family: 'cooper_hewittlight';  
+    color: #5b5b5b;  
+}
+.profile_info p strong {
+    font-family: 'cooper_hewittmedium';
+}
+.profile_details hr {
+   display: none;
+}
+.profile_details a.more-link {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #3085bb;
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+
+.left_side_profile {
+    width: 45%;
+    margin: 0;
+    float: left;
+    display: inline-block;
+}
+.weight_tracksec {
+    width: 55%;
+    display: inline-block;
+}
+/************ end css manage profile***************/
+/********** start css edit profile page *************/
+.edit_user_profile .upload_profile {
+    width: 39%;
+    float: left;
+    display: inline-block;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    padding-bottom: 50px;
+}
+.edit_user_profile .landloard_cntct {
+    width: 60%;
+    margin-left: 1%;
+    display: inline-block;
+    border: 1px solid #c3c3c3;
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+.lanloard_profile {
+    padding: 30px 0px;
+}
+.upload_profile .change_photo.manage_photo {
+    text-align: center;
+    margin: 18px auto;
+    padding: 5px;
+    box-shadow: 0 0 48px -5px #000;
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+}
+.change_photo.manage_photo img#img_preview {
+    height: auto!important;
+    max-width: 100%!important;
+}
+.change_photo.manage_photo img#img_preview1 {
+    height: auto!important;
+    max-width: 100%!important;
+}
+.select_img .btn.btn-file {
+    background-color: #ffffff;
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.select_img .btn.btn-file span {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    background-color: #3085bb;
+    padding: 0px 15px;
+    border-radius: 4px;
+}
+.select_img .btn.btn-file label {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    background-color: #3085bb;
+    padding: 0px 15px;
+    border-radius: 4px;
+    min-height: 41px;
+    min-width: 140px;
+    cursor: pointer;
+}
+.select_img .btn.btn-file input {
+    display: none;
+}
+.profile_pic_remove {
+    text-align: center;
+    font-size: 22px;
+    padding: 7px 15px;
+    display: table;
+    border-radius: 4px;
+    background-color: #af4479;
+    margin: 12px auto;    
+}
+.profile_pic_remove a { 
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.u_fname p {
+    font-size: 20px;
+    padding: 5px 15px;
+    color: #000000;
+    text-transform: capitalize;
+}
+.u_fname p, .u_email p strong, .u_level p strong, .u_phone p strong, .nick_name strong {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    display: block;
+}
+.u_email p, .u_level p, .u_phone p ,.nick_name p{
+    font-size: 18px;
+    font-family: 'cooper_hewittlight';
+    padding: 5px 15px;
+    color: #000000;
+}
+.landloard_cntct .edit_user_detail {
+    width: 100%;
+}
+.landloard_cntct .edit_user_detail label {
+    display: inline-block;
+}
+.landloard_cntct .edit_user_detail .edit_user_name {
+    width: 48%;
+    float: left;
+    clear: none;
+}
+.edit_user_detail .edit_user_name:first-of-type {
+    margin-right: 4%;
+}
+.edit_user_detail .edit_user_name:last-of-type {
+    margin: 0;
+}
+.user_radio input#uppublic, .user_radio input#upprivate {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin: 0px 12px;
+}
+.user_radio {
+    font-size: 18px;
+    padding: 12px 15px;
+}
+.edit_user_save .blue_btn {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    background-color: #3085bb;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+    margin: 15px 0px;
+    width: auto;
+    height: auto;
+    float: right;
+}
+/********** end css edit profile page *************/
+/********** weight tracking page starts*************/
+.z-tabs.mobile.z-shadows > ul.z-tabs-mobile, .z-tabs.mobile > ul.z-tabs-desktop {
+    width: 99%!important;
+    margin: 0 auto;
+}
+.silver .z-tabs.mobile > ul.z-tabs-desktop
+{
+    margin-top: 0px !important;
+}
+.z-tabs.mobile ul.z-tabs-nav  li .z-link {
+    margin: 0 !important;
+    background: #af4479;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'cooper_hewittmedium';
+}
+.z-tabs.mobile > ul.z-tabs-mobile > li > a > span.z-arrow
+{
+    filter: brightness(100%) invert(1);
+}
+ .z-tabs.mobile.top > .z-container {
+    margin: 30px auto !important;
+    width: 80%;
+    padding: 30px;
+}
+ .ws_ls_title{
+    color: #000;
+    font-family: 'cooper_hewittmedium';
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    padding:30px 0px;
+}
+.we-ls-weight-form {
+    width: 60% !important;
+    margin: 0px auto;
+    padding: 15px;
+    border: 1px solid #000;
+}
+.we-ls-weight-form  input#we-ls-weight-kg,.we-ls-weight-form .we-ls-datepicker{
+    height:50px !important;
+    font-size: 16px;
+    font-family: 'cooper_hewittlight';
+    border: 1px solid #e9e9e9 !important;
+    margin: 10px 0px;        
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+input#we-ls-submit,button#ws-ls-clear-target{
+    font-size: 16px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    background-color: #3085bb;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: none;
+    height:auto;
+    margin: 0 auto;
+}
+.ws-ls-form-buttons, .ws-ls-photo-select{
+    text-align: center;
+}
+.we-ls-weight-form textarea{
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'cooper_hewittlight';
+     border: 1px solid #e9e9e9 !important;
+}
+button#ws-ls-clear-target{
+    background-color:#af4479;
+}
+.ws_ls_week_controls select{
+    height:50px !important;
+    font-size: 16px;
+    font-family: 'cooper_hewittlight';
+    border: 1px solid #e9e9e9;
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+table.ws-ls-data-table thead{
+    background: #cc90ae;
+    border: 1px solid #000;
+}
+table.ws-ls-data-table tr td  {
+    text-align: center;
+    border: 1px solid #c3c3c3;
+    background: #f7e7ef;
+    padding:5px;
+    font-size: 14px;
+    font-family: 'cooper_hewittmedium';
+}
+table.ws-ls-data-table thead tr th {
+    font-size: 16px;
+      border: 1px solid #c3c3c3;
+    font-family: 'cooper_hewittmedium';
+    padding:5px;
+}
+/********** weight tracking page ends*************/
+/********** grouplisting page starts*************/
+.groupuser_sec{
+       width: 85%;
+    margin: 0px auto;
+    padding-top: 70px;
+   }
+    .groupuser_sec .user_list_detail  {
+    width: 46%;
+   display: inline-block;
+   padding:0px;
+   margin: 15px;
+ }
+ .user_list_detail p strong{
+    color: #000;
+    font-family: 'cooper_hewittmedium';
+    font-size: 16px;
+}
+.user_list_detail p {
+    color: #000;
+     font-family: 'cooper_hewittlight';
+     font-size: 16px;
+}
+.user_list_detail  span.u_grp_code{
+    color: #000;
+     font-family: 'cooper_hewittlight';
+     font-size: 16px;
+     padding: 0 10px;
+}
+/********** grouplisting page ends*************/
+/********** start css account page *************/
+#pmpro_account {
+    width: 80%;
+    margin: 0 auto;
+}
+#pmpro_account #pmpro_account-membership {
+    padding: 30px 0px;
+}
+#pmpro_account .pmpro_box h3 {
+    padding: 10px 0px;
+    font-family: 'cooper_hewittmedium';
+    color: #000000;
+    text-transform: capitalize;
+}
+#pmpro_account-membership thead {
+    color: #000000;
+    background-color: #cc90ae;
+    border: 1px solid #c3c3c3;
+}
+#pmpro_account-membership thead tr th {
+    font-size: 16px;
+    border: 1px solid #c3c3c3;
+    font-family: 'cooper_hewittmedium';
+    padding: 5px;
+}
+#pmpro_account-membership tbody tr td {
+    font-size: 14px;
+    font-family: 'cooper_hewittmedium';
+    color: #000000;
+    text-align: center;
+    border: 1px solid #c3c3c3;
+    background: #f7e7ef;
+    padding: 5px
+}
+a#pmpro_account-cancel {
+    font-size: 14px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    background-color: #af4479;
+    padding: 3px 12px;
+    border-radius: 4px;
+    border: none;
+    height: auto;
+    margin: 0px auto;
+}
+#pmpro_account-profile p {
+    font-size: 18px;
+    color: #3085bb;
+    font-family: 'cooper_hewittbold';
+    text-transform: capitalize;
+    line-height: 22px;
+    text-align: left;
+    padding: 7px 0px!important;
+}
+#pmpro_account-profile ul{
+    padding :10px 0px;
+    margin: 0px !important;
+}
+#pmpro_account-profile ul li {
+    color: #000;
+    font-family: 'cooper_hewittlight';
+    font-size: 16px;
+    padding: 5px 0px;
+}
+#pmpro_account-profile ul li strong {
+    font-family: 'cooper_hewittmedium';
+    font-size: 16px;
+}
+.pmpro_actionlinks a#pmpro_account-edit-profile,
+.pmpro_actionlinks a#pmpro_account-change-password {
+    font-size: 16px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    background-color: #3085bb;
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: none;
+    height: auto;
+    margin-right: 10px;
+}
+#pmpro_account-invoices thead {
+    color: #000000;
+    background-color: #cc90ae;
+    border: 1px solid #c3c3c3;
+}
+#pmpro_account-invoices thead tr th {
+    font-size: 16px;
+    border: 1px solid #c3c3c3;
+    font-family: 'cooper_hewittmedium';
+    padding: 5px;
+}
+#pmpro_account-invoices tbody tr td {
+    font-size: 14px;
+    font-family: 'cooper_hewittmedium';
+    color: #000000;
+    text-align: center;
+    border: 1px solid #c3c3c3;
+    background-color: #f7e7ef !important;
+    padding: 5px
+}
+#pmpro_account-invoices #pmpro_account-invoice-950D7B8A4B a {
+    font-size: 14px;
+    font-family: 'cooper_hewittmedium';
+    color: #3085bb;
+}
+/********** end css account page *************/
+/****** start css membership cancel *******/
+.cancel_membership {
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #c3c3c3;
+    text-align: center;
+}
+.cancel_membership p {
+    font-size: 18px;
+    font-family: 'cooper_hewittmedium';
+    color: #000000;
+    padding-bottom: 20px;
+}
+a.pmpro_btn.pmpro_yeslink.yeslink,
+a.pmpro_btn.pmpro_cancel.pmpro_nolink.nolink {
+    font-size: 16px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    background-color: #af4479;
+    padding: 5px 12px;
+    border-radius: 4px;
+    border: none;
+}
+a.pmpro_btn.pmpro_cancel.pmpro_nolink.nolink {
+    background-color: #3085bb;
+    padding: 5px 20px;
+}
+/****** end css membership cancel *******/
+/******** start css membership levels page *********/
+    .account_membership_level {
+        padding-top: 20px;
+    }
+    #pmpro_levels_table.pmpro_checkout {
+        width: 50%;
+        margin: 0 auto;
+        border: 1px solid;
+        padding: 20px;
+    }
+    #pmpro_levels_table.pmpro_checkout thead {
+        color: #000000;
+        background-color: #cc90ae;
+        border: 1px solid #c3c3c3;
+    }
+    #pmpro_levels_table.pmpro_checkout thead th{
+        font-size: 18px;
+        border: 1px solid #c3c3c3;
+        font-family: 'cooper_hewittmedium';
+        padding: 5px;
+        color: #000000;
+        display: table-cell;
+    }
+    #pmpro_levels_table.pmpro_checkout tbody tr td {
+        font-size: 16px;
+        font-family: 'cooper_hewittmedium';
+        color: #000000;
+        text-align: center;
+        background-color: #ffffff;
+        border: 1px solid #c3c3c3;
+        padding: 5px;
+        display: table-cell;
+    }
+    #pmpro_levels_table.pmpro_checkout tr.active td {
+        background-color: #f7e7ef;
+    }
+    #pmpro_levels_table .pmpro_btn {
+        font-size: 16px;
+        font-family: 'cooper_hewittmedium';
+        color: #ffffff;
+        display: inline-block;
+        background-color: #3085bb;
+        padding: 3px 15px;
+        border-radius: 4px;
+    }
+    .account_membership_level .return_home_link {
+        float: none;
+        text-align: center;
+        padding: 20px 0px;     
+    }
+    .account_membership_level .return_home_link a {
+        font-size: 16px;
+        font-family: 'cooper_hewittlight';
+        color: #ffffff;
+        background-color: #3085bb;
+        padding: 5px 15px;
+        border-radius: 4px;
+    }
+    /******** end css membership levels page *********/
+/******************* membership-invoice page starts *******************/
+.membership_invoice h3{
+    padding: 10px 0px;
+    font-family: 'cooper_hewittmedium';
+    color: #000000;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.membership_invoice .pmpro_a-print
+{
+    font-size: 16px;
+    background-position: 6px 7px;
+    color: #fff;
+    background-color: #3085bb;
+  padding: 8px 10px 8px 28px;
+  border-radius: 4px;
+}
+.membership_invoice ul li{
+    padding-top:10px;
+  }
+.membership_invoice ul li strong{
+       font-family: 'cooper_hewittmedium';
+    color: #000000;
+     font-size: 16px;
+}
+.membership_invoice ul li {
+    font-size: 16px;
+    font-family: 'cooper_hewittlight';
+    color: #000;
+}
+.membership_invoice table.pmpro_invoice {
+    text-align: center;
+    margin: 20px 0px;
+}
+.membership_invoice table.pmpro_invoice thead {
+    background: #cc90ae;
+    border: 1px solid #c3c3c3;
+}
+.membership_invoice table.pmpro_invoice tr td {
+    text-align: center;
+    border: 1px solid #c3c3c3;
+    background: #f7e7ef;
+    padding:5px;
+    font-size: 14px;
+    font-family: 'cooper_hewittmedium';
+    color:#000;
+}
+.membership_invoice table.pmpro_invoice thead tr th {
+    font-size: 16px;
+    border: 1px solid #c3c3c3;
+    font-family: 'cooper_hewittmedium';
+    padding:5px;
+    color:#000;
+}
+.membership_invoice .nav-next.alignright a ,.membership_invoice .nav-prev.alignleft a{
+    font-size: 16px;
+    font-family: 'cooper_hewittmedium';
+    color: #ffffff;
+    display: inline-block;
+    background-color: #3085bb;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: none;
+    height: auto;
+ }
+/******************* membership-invoice page ends *******************/
+/****Edit on 20/11/2017***/
+.et_fixed_nav #main-header, .et_fixed_nav #top-header{
+    position: relative!important;
+}
+.et_fixed_nav.et_show_nav.et_secondary_nav_enabled.et_header_style_centered #page-container, .et_non_fixed_nav.et_transparent_nav.et_show_nav.et_secondary_nav_enabled.et_header_style_centered #page-container{
+    padding-top: 0!important;
+}

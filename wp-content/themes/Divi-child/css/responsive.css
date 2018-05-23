@@ -1,0 +1,378 @@
+/*
+Theme Name: Divi Child 
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes
+Author URI: http://www.elegantthemes.com
+Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection.
+Tags: responsive-layout,one-column,two-columns,three-columns,four-columns,left-sidebar,right-sidebar,custom-background,custom-colors,featured-images,full-width-template,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready
+Version: 3.0.24.1499976994
+Updated: 2017-07-13 20:16:34
+
+*/
+@media (max-width: 1600px){
+    .pmpro_member_profile{padding: 25px;}
+    .profile_info{margin-left: 20px;}
+}
+/*********** responsive start **************/
+@media (max-width: 1199px){
+    /************pro_member menu header***************/
+    .pro_main_header div#et-top-navigation {padding: 38.5px 0px;}
+    .pro_main_header #top-menu li {padding-right: 15px;}
+    /************ sign in page **********/
+    .form_border {max-width: 992px;}
+    .form_heading {padding: 35px 20px;top: 25%;}
+    .form_heading_img img {width: 63%;}
+    .signin_form {padding: 65px 65px 65px 155px;}
+    .signin_submit {padding: 25px 0px 15px;}
+    /*************sign up page ***********/
+    .sign_up_sec .form_heading{left:5%;top: 11%;}
+    #pmpro_user_fields{padding: 65px 42px 80px 195px;}
+    #pmpro_user_fields .input{height: 45px;}
+    /*************forgot password page ***********/
+    .forgotpass_section .form_heading_text h2 ,.reset_pw_section .form_heading_text h2 {font-size: 22px;}
+    .forgotpass_section .form_heading{width: 23%;left: 9%;top: 25%;}
+    .forgotpass_form {padding: 50px 65px 55px 135px;}    
+    /*************reset password page ***********/
+    .reset_pw_section .form_heading{width: 23%;}
+    /************  weekly_challenges page***************/
+    .video_seq {width: 95%;}
+     /************  user_listing page***************/
+      .user-listing_sec ,.groupuser_sec{ width: 100%;}
+    /*********** manage profile page*******/
+    .pmpro_member_profile {text-align: center;}
+    .left_side_profile{width: 65%;float: none;margin: 30px auto;padding: 30px;box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);}
+    .profile_image{width: 35%;}
+    .profile_info{width: 45%;text-align: left;}
+    .weight_tracksec{width: 100%;}
+    .left_side_profile .profile_info p{padding-bottom: 10px;}
+    /********* edit profile page **********/
+    .edit_user_profile .landloard_cntct {padding: 10px 25px;}
+    /********** account cancel page *************/
+    .cancel_membership {width: 70%;}
+}
+@media (max-width: 991px){
+    /************pro_member menu header***************/
+    #menu-promember_menu li {padding: 8px 12px;}
+    /************ sign in page **********/
+    .form_border {max-width: 768px;}
+    .form_heading {padding: 55px 10px;top: 28%;}
+    .form_heading_img img {width: 55%;}
+    .signin_form {padding: 50px 50px 50px 125px;}
+    .signin_submit {padding: 15px 0px;}
+    .signin_submit input.blue_btn {padding: 0px;width: 100px;}
+    /*************sign up page ***********/
+    .sign_up_sec  .form_heading_img {width: 26%;height: 100%;display: inline-block;float: left;}
+    .sign_up_sec  .form_heading_img img {width: 100%;float: left;margin: 5px;}
+    .sign_up_sec.form_heading_text h2{text-align: center;}
+    .sign_up_sec .form_heading_text {width: 46%;display: inline-block; padding: 0px;}
+    .sign_up_sec .form_heading_text p{padding: 0px 26px;}
+    .sign_up_sec .form_heading {left: 20%;width: 60%;top:3%;padding: 10px 0px;}
+    .sign_up_sec{padding:150px 0px 50px;}
+    .sign_up_sec .signup_heading_radio{width: 35%;margin: 0 auto;padding-bottom: 5px;}
+    #pmpro_user_fields{padding: 120px 30px 80px 30px;}
+    #pmpro_user_fields{width: 84%;margin: 0 auto;}
+    /*************forgot password page ***********/
+    .forgotpass_section .form_heading_text h2, .reset_pw_section .form_heading_text h2 {font-size: 20px;}
+    .forgotpass_form {width: 70%;padding: 50px 55px 50px 125px;}
+    .forgotpass_section .form_heading {width: 27%;left: 2%;top: 26%;}
+    /*************reset password page ***********/
+    .reset_pw_section .form_heading { width: 28%;top: 28%;}
+    .signin_form.form_contain {padding: 50px 50px 50px 173px;width: 72%;}
+    /*********** manage profile page*******/
+    .left_side_profile{width: 85%;}
+    .profile_image{width: 33%;}
+    .profile_info{width: 55%;}
+    /************  weekly_challenges page***************/
+    .video_sec {width: 100%; float: none;padding: 10px 0px;}
+    .video_seq {width: 75%;}
+     /************  user_listing page***************/
+    .user_list_detail p strong,.user_list_detail p,.user_list_detail  span.u_grp_code{font-size: 14px;}
+    .user-listing_sec, .groupuser_sec{width: 95%;}
+    .user_list_detail:nth-of-type(odd){width: 47%;margin: 15px 15px 15px 0px;}
+    .user_list_detail:nth-of-type(even){width: 47%;margin:15px 0px 15px 15px;}
+    .user_list_detail .medium-.columns{width: 100%;}
+    .user_list_detail .more-link{font-size: 16px;padding: 8px;}
+    div.pmpro_member_directory div p { margin: 0 !important;}
+    a.more-link.group_mem,.user_list_detail p.pmpro_member_directory_link .more-link{font-size: 16px;padding: 8px;}
+     /********* edit profile page **********/
+    .landloard_cntct .edit_user_detail .edit_user_name {width: 100%;}
+    .edit_user_profile .landloard_cntct {border: none;padding: 10px 15px;}
+    .u_email p, .u_level p, .u_phone p {font-size: 16px;}
+    .select_img .btn.btn-file{margin-top: 0px;}
+    .select_img .btn.btn-file span{font-size: 16px;padding: 0 8px;}
+    .select_img .btn.btn-file label{font-size: 16px;padding: 0 8px;min-height: 41px;min-width: 101px;}
+    .profile_pic_remove{margin: 8px auto;font-size: 16px;padding: 8px;}
+    /********** weight tracking page*************/
+    .z-tabs.mobile.top > .z-container{width:90%;}
+    .z-tabs.mobile ul.z-tabs-nav  li .z-link{font-size: 16px;}
+    .z-tabs.mobile.top > .z-container{padding: 10px;}
+    .we-ls-weight-form  input#we-ls-weight-kg, .we-ls-weight-form .we-ls-datepicker, .ws_ls_week_controls select{font-size: 14px;height: 45px !important;}
+    /********** account page *************/
+    #pmpro_account {width: 85%;}
+    #pmpro_account .pmpro_box h3,.membership_invoice h3{font-size: 20px;}
+    .membership_invoice .nav-next.alignright a, .membership_invoice .nav-prev.alignleft a{padding: 6px 10px;}
+    /********** account cancel page *************/
+    .cancel_membership {width: 80%;padding: 40px 15px;}
+    a.pmpro_btn.pmpro_yeslink.yeslink, a.pmpro_btn.pmpro_cancel.pmpro_nolink.nolink {padding: 5px 10px;}
+    /************ membership levels page *********/
+    #pmpro_levels_table.pmpro_checkout {width: 65%;}
+
+}
+@media (max-width: 980px){
+    /***********header************/
+    .et_header_style_centered header#main-header .logo_container {display: inline-block;float: left;}
+    .et_header_style_centered #main-header .mobile_nav {padding: 0px;}
+    .et_mobile_menu li a:hover {color: #3086bb;}
+    .mobile_nav.closed span.select_page, .mobile_nav.opened span.select_page {display: none;}
+    /***********header pro_member after login ********/
+    /*.pro_main_header*/ #et_mobile_nav_menu {float: right;margin: 0px!important;width: 100%;}
+    .pro_main_header div#et-top-navigation {padding: 0px;width: 100%!important;}
+    .pro_main_header .mobile_nav.opened{width:100%;}
+    .pro_main_header .mobile_menu_bar {top: -50px;}
+    .pro_main_header  .et_mobile_menu {top: 0 !important;padding: 0 5%;}  
+    .et_mobile_menu{padding: 1% 5%;}
+}
+@media (max-width: 768px){
+    /*************sign up page ***********/
+    .sign_up_sec{padding: 95px 0px 50px;}
+        .sign_up_sec .form_heading_text{width: 50%;}
+        .sign_up_sec  .form_heading_img{width: 26%;}
+        .sign_up_sec  .form_heading_img img{width: 100%;} 
+        .sign_up_sec .signup_heading_radio{width: 45%;}   
+        .sign_up_sec .form_heading{top: 2%;}
+
+    }
+@media (max-width: 767px){
+    /************pro_member menu header***************/
+    #menu-promember_menu {width: 100%;}
+    #menu-promember_menu li {padding: 8px;font-size: 14px;}
+    /************ sign in page **********/
+    .form_border{padding: 115px 0px 50px;}
+    .form_heading_text h2{font-size: 24px;}
+    .form_heading {left: 24%;width: 51%;top: 6%;padding: 0px;}
+    .form_heading_img {width: 100%;display: inline-block;float: none;text-align: center;}
+    .form_heading_img img {width: 29%;margin:10px auto;}
+    .form_heading_text {padding: 0px;width:100%;display: inline-block;}
+    .signin_form {padding: 100px 50px 50px;width: 80%;}
+    .signin_submit input.blue_btn {width: 80px;}
+    /*************forgot password page ***********/
+    .forgotpass_section .form_heading,.reset_pw_section .form_heading {left: 20%;width: 60%;top: 5%;padding: 0px;}
+    .forgotpass_section .form_heading_img img {width: 80%;}
+    .forgotpass_section .form_heading_text {padding: 15px 5px;}
+    .forgotpass_form {width: 80%;padding: 70px 50px 50px;}
+    /*************reset password page ***********/
+    .reset_pw_section .form_border{padding: 80px 0px;}
+    .signin_form.form_contain{padding: 80px 15px 15px;width: 80%;}
+    .reset_pw_section .form_heading_img{width:22%;}
+    .reset_pw_section .form_heading_img img{width: 80%;}
+    /************  weekly_challenges page***************/
+    .video_seq {width: 85%;}
+    /*********** manage profile page*******/
+    .pmpro_member_profile {width: 100%;border: 0;}
+    .profile .edit_profile a {font-size: 16px;}
+    .profile_details a.more-link {font-size: 16px;}
+     .left_side_profile{width: 100%;}
+    .profile_image{width: 33%;width: 130px;height: 130px;text-align: center;margin: 0 auto;float: none;}
+    .profile_info{width: 100%;text-align: center;margin: 10px 0px;}
+     /********* edit profile page **********/
+    .edit_user_profile .upload_profile {width: 100%;padding-bottom: 0px;}
+    .upload_profile .change_photo.manage_photo {width: 120px;height: 115px;}
+    .profile_actions {width: 43%;float: left;display: inline-block;}
+    .profile_photo_detail {display: inline-block;padding: 5px 3px;}
+    .u_fname p {padding: 5px 10px;}
+    .select_img .btn.btn-file span {font-size: 14px;}
+    .select_img .btn.btn-file label{font-size: 14px;min-width: 82px;}
+    .profile_pic_remove{font-size: 14px;}
+    .edit_user_profile .landloard_cntct {width: 100%;}
+     /************  user_listing page***************/
+     .user_list_detail:nth-of-type(odd){width:100%;margin:15px 0px;}
+    .user_list_detail:nth-of-type(even){width: 100%;margin:15px 0px;}
+      .user_list_detail .medium-.columns{width:100%;}
+      .user_list_detail p strong,.user_list_detail p,.user_list_detail  span.u_grp_code{font-size: 16px;}
+    /********** weight tracking page*************/   
+    input#we-ls-submit, button#ws-ls-clear-target{padding: 8px 10px;font-size: 14px;}
+    .ws_ls_title{font-size: 20px;padding: 30px 0px 0px;}
+    .we-ls-weight-form{width:75% !important;}
+    table.ws-ls-data-table thead tr th,table.ws-ls-data-table tr td{font-size: 14px;}
+    /********** account page *************/
+    #pmpro_account {width: 90%;}
+    #pmpro_account .pmpro_box h3,.membership_invoice h3 {font-size: 18px;}
+    a#pmpro_account-cancel {padding: 0px 12px;}
+    /********** account cancel page *************/
+    .cancel_membership {width: 100%;}
+    /************ membership levels page *********/
+    #pmpro_levels_table.pmpro_checkout {width: 75%;}
+    /*********** membership invoice page *************/
+    .membership_invoice .pmpro_a-print{padding: 8px 8px 8px 25px;}
+}
+@media (max-width: 567px){
+    /************ header menu section ***********/
+    #menu-promember_menu.nav li{display: block;line-height: 0em;padding: 15px;}
+    .et_header_style_centered #main-header{padding: 10px 0px;}
+    #menu-promember_menu {width: 90%;}
+    /************ footer section ***********/
+    .et-social-icons li:first-of-type{ margin-left: 0px;}
+    /************ sign in page **********/
+    .form_heading_text h2{font-size: 22px;}
+    .form_border {padding: 40px 0px;}
+    .signin_form {width: 90%;padding: 30px;}
+    .form_contain input {height: 45px;font-size: 14px;}
+    .form_contain label {font-size: 16px;}
+    .form_contain input::placeholder {font-size: 14px;}
+    .signin_submit input.blue_btn {width: 75px;}
+    .form_heading {position: relative;left: auto;top: auto;width: 90%;margin: 10px auto;display: table;}
+    /*************sign up page ***********/
+    .sign_up_sec{padding: 15px 0px;}
+    .sign_up_sec .form_heading{width: 95%;text-align: center;float: none;}
+    .sign_up_sec .form_heading_text{width: 48%;float: none;margin: 0 auto;}
+    .sign_up_sec .form_heading_text p{text-align: left;}
+    .sign_up_sec  .form_heading_img{width: 100%;float: none;text-align: center;}
+    .form_heading_img img,.sign_up_sec  .form_heading_img img{width: 20%;margin:10px auto;float: none;} 
+    .sign_up_sec .signup_heading_radio{width: 39%;text-align: left;}   
+    .form_heading_text p{line-height: 1.2;padding-bottom: 7px;}
+    .sign_up_sec .signup_heading_radio{width: 37%;}   
+     #pmpro_user_fields div label,.sign_up_sec .form_heading_text p:last-of-type{padding-bottom: 0px;font-size: 16px;}
+    .sign_up_sec .form_heading{position: relative;top: auto; left: auto;width: 90%;margin: 10px auto;height:auto;}
+    #pmpro_user_fields{width:90%;padding: 30px 30px 70px;}
+    #pmpro_user_fields .signup_row div{width: 100%;}
+    #preferedintake,#pmpro_user_fields .input,#pmpro_user_fields input::placeholder,#signup_form_email input#bemail, div#prefered_intake select#preferedintake{font-size: 14px;}
+    #pmpro_user_fields .signup_row div{margin-bottom: 0px;}
+    #pmpro_user_fields div#prefered_intake{padding-top: 10px;}
+    .signup_submit .blue_btn{font-size: 16px;height: 40px;}
+    #pmpro_level-2 span#pmpro_paypalexpress_checkout {float: right;}
+    /*************forgot password page ***********/
+    .forgotpass_section .form_heading {width: 80%;left: auto;}
+    .forgotpass_form {width: 90%;padding: 50px;}
+    .forgotpass_section .form_heading_img img {width: 70%;}
+    .forgotpass_section .form_heading_text {padding: 10px 5px;}
+    .forgotpass_submit input.blue_btn {height: 45px;}
+     /*************reset password page ***********/
+     .reset_pw_section .form_heading {width: 80%;left: auto;}
+     .signin_form.form_contain{padding: 30px 15px 15px;}
+     .pmpro_submit .pmpro_btn-submit-checkout, #reset_pass{height: 50px;}
+     /************  weekly_challenges page***************/
+     .video_seq {width: 90%;margin: 10px auto;padding: 15px;}
+     /*********** manage profile page*******/
+    .pmpro_member_profile {width: 95%;text-align: center;margin: 25px auto 0px;padding: 20px;}
+    .profile h2 {font-size: 22px;}
+    .profile_image {float: none;margin-bottom: 12px;width: 110px;height: 110px;}
+    .profile_info {width: 100%;margin: 0px;}
+    .profile_info p {padding-bottom: 10px;}
+    .profile_details a.more-link {margin: 10px 0px;}
+     /************  user_listing page***************/
+     
+     h3.pmpro_member_directory_display-name{font-size: 20px;}
+    /********* edit profile page **********/
+    .profile_actions {width: 100%;}
+    .profile_photo_detail {width: 100%; text-align: center;}
+    .edit_user_profile .landloard_cntct {margin: 0px;padding: 0;}
+    /********** weight tracking page*************/   
+    .z-tabs.mobile.top > .z-container{width:90%;}
+    .z-tabs.mobile ul.z-tabs-nav  li .z-link{font-size: 14px;line-height:normal;}
+    input#we-ls-submit, button#ws-ls-clear-target{padding: 6px 8px;}
+    .ws_ls_title{padding: 15px 0px 0px;}
+    .we-ls-weight-form{width:75% !important;}
+    .we-ls-weight-form  input#we-ls-weight-kg, .we-ls-weight-form .we-ls-datepicker,.ws_ls_week_controls select{height: 40px !important;}
+    /********** account page *************/
+    #pmpro_account {width: 100%;}
+    #pmpro_account-membership thead tr th, #pmpro_account-invoices thead tr th ,.membership_invoice table.pmpro_invoice thead tr th{font-size: 14px !important; padding: 2px;}
+    #pmpro_account-profile ul li {font-size: 14px;}
+    .pmpro_actionlinks a#pmpro_account-edit-profile, .pmpro_actionlinks a#pmpro_account-change-password ,.membership_invoice .nav-next.alignright a, .membership_invoice .nav-prev.alignleft a{font-size: 14px !important;padding: 5px !important;}
+    #pmpro_account-profile ul {padding: 0px;}
+    /********** account cancel page *************/
+    .cancel_membership p {font-size: 16px;}
+    a.pmpro_btn.pmpro_yeslink.yeslink, a.pmpro_btn.pmpro_cancel.pmpro_nolink.nolink {font-size: 14px;display: block;max-width: 200px;margin: 10px auto;}
+    /************ membership levels page *********/
+    #pmpro_levels_table.pmpro_checkout {width: 85%;}
+    #pmpro_levels_table.pmpro_checkout tbody tr td, #pmpro_levels_table .pmpro_btn,
+    .account_membership_level .return_home_link a {font-size: 14px;}
+}
+@media (max-width: 479px){
+    /************ header menu section ***********/
+    #menu-promember_menu.nav li{padding: 10px;}
+    /************ sign in page **********/
+    .form_heading {width: 95%;}
+    .signin_form {width: 95%;padding: 15px;}
+    .form_contain input {height: 40px;font-size: 14px;}
+    .form_contain label {font-size: 14px;}
+    .form_contain input::placeholder {font-size: 12px;}
+    .signin_submit input.blue_btn {width: 70px;}
+    /*************sign up page ***********/
+    .sign_up_sec .form_heading{width:95%;}
+    .sign_up_sec .form_heading_text{width: 66%;}
+    .sign_up_sec .signup_heading_radio{width: 53%;font-size: 12px;}
+    .form_heading_text h2{font-size: 20px;}
+    #pmpro_user_fields{width: 95%;padding: 15px 30px 65px;}
+    #pmpro_user_fields div label,.sign_up_sec .form_heading_text p:last-of-type{padding-bottom: 0px;font-size: 14px;}
+      #preferedintake,#pmpro_user_fields .input{height:40px;}    
+    #preferedintake, #pmpro_user_fields .input, #pmpro_user_fields input::placeholder, #signup_form_email input#bemail, div#prefered_intake select#preferedintake,#pmpro_user_fields p{font-size: 12px;}
+    .signup_submit .blue_btn{width: 28%; height: 40px;}
+     /************  user_listing page***************/
+     .user_list_detail p strong,.user_list_detail p{font-size: 14px;}
+       .user_list_detail .medium-.columns{min-height: 220px;}
+    /*************forgot password page ***********/
+    .forgotpass_section .form_heading {width: 95%;}
+    .forgotpass_form {width: 95%;padding: 15px;}
+    .forgotpass_submit input.blue_btn {width: 100px;height: 40px;}
+    /*************reset password page ***********/
+    .reset_pw_section .form_heading {width: 95%;}
+    .signin_form.form_contain{width: 95%;}
+    .reset_pw_section .form_border{padding: 30px 15px;width: 95%;}
+    .pmpro_submit .pmpro_btn-submit-checkout, #reset_pass{width: 110px;padding: 6px;}
+    /************  weekly_challenges page***************/
+    .video_seq {width: 100%;}
+       .video_seq h4{font-size: 14px;padding: 10px 0px;}
+       .video_seq p{font-size: 12px;}
+    /*********** manage profile page*******/
+    .pmpro_member_profile {width: 100%;padding: 0px 20px;}
+    .left_side_profile{padding: 15px;}
+    /********* edit profile page **********/
+    .lanloard_profile {padding: 30px 0px 0px;}
+    /********** weight tracking page*************/   
+    .we-ls-weight-form{width:100% !important;}
+    .z-tabs.mobile.top > .z-container{width: 88%;}
+/*     .we-ls-weight-form  input#we-ls-weight-kg, .we-ls-weight-form .we-ls-datepicker,.ws_ls_week_controls select{height: 35px !important;}*/
+    /********** account page *************/
+    #pmpro_account #pmpro_account-membership, #pmpro_account-profile ul li, #pmpro_account .pmpro_box {padding: 0px;}
+    /************ membership levels page *********/
+    #pmpro_levels_table.pmpro_checkout {width: 95%;}
+    /********** membership-invoice page *************/
+    .membership_invoice h3 ,.groupuser_sec h3{font-size: 16px;}
+    .membership_invoice ul{margin-top: 25px;}
+    .alignright ,.alignleft{float: none;text-align: center;margin-bottom: 10px;}
+    .membership_invoice .pmpro_a-print{float: left;}
+    .membership_invoice ul li strong, .membership_invoice ul li {font-size: 14px !important;}
+}
+@media (max-width: 375px){
+       .video_seq iframe{height: auto;}
+       /************  user_listing page***************/
+        h3.pmpro_member_directory_display-name{font-size: 18px;padding: 8px 0px;}
+       .user_list_detail p strong,.user_list_detail p,.user_list_detail  span.u_grp_code{font-size: 12px;}
+       .profile h2{font-size: 20px;padding-bottom: 10px;}
+       .left_side_profile .profile_info p{padding: 0px;}
+       .user_list_detail .medium-.columns{min-height: 205px;}
+    a.more-link.group_mem, .user_list_detail p.pmpro_member_directory_link .more-link {font-size: 14px;padding: 4px;margin:0px 10px 10px;}
+    .membership_invoice ul li strong,.membership_invoice ul li {font-size: 12px !important;}
+}
+@media (max-width: 320px){
+    
+    /*************sign up page ***********/
+    .signup_submit .blue_btn{width: 32%;}
+    .sign_up_sec  .form_heading_img img{width: 25%;}
+    /*************reset password page ***********/
+    .reset_pw_section .form_heading_text{padding: 10px;}
+    .reset_pw_section .form_heading{width: 100%;}
+    .signin_form.form_contain{width: 100%;}
+    .pmpro_submit .pmpro_btn-submit-checkout, #reset_pass{width: 90px;}
+    /*************forgot password page ***********/
+    .forgotpass_form .form_heading{width: 100%;}
+    .forgotpass_submit input.blue_btn {width: 90px;}
+    /***********manage profile ***********/
+    .profile_info p {font-size: 14px;}
+     .profile_image {width: 80px;height: 80px;}
+    /********** weight tracking page*************/  
+    /********** account page *************/
+    #pmpro_account-membership tbody tr td, #pmpro_account-invoices tbody tr td {font-size: 12px;} 
+    .pmpro_actionlinks a#pmpro_account-edit-profile, .pmpro_actionlinks a#pmpro_account-change-password {padding: 2px 5px;}
+}
